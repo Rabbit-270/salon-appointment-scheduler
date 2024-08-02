@@ -1,0 +1,10 @@
+git pull
+git pull origin main
+git fetch salon-appointment-scheduler
+git remote set-url origin https://github.com/Rabbit-270/salon-appointment-scheduler.git
+git branch -M main
+git pull
+git pull salon-appointment-scheduler main
+git add .
+touch salon.sql
+git add .
